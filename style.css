@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin-top: 1px;
+    background-color: black;
+    color:white;
+    display:flex;
+    padding:4px;
+    position:sticky;
+    
+}
+
+.nav-item-1{
+    width:50%;
+    padding:4px;
+
+}
+
+.nav-item-2{
+    width:50%;
+    padding:4px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.nav-item{
+    padding:4px;
+    padding-right: 8px;
+}
+
+.main-page{
+    display:flex;
+    margin-left: 5px;
+}
+
+h1, h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:10px;
+}
+
+.main-page-item-1{
+    padding: 10px 10px;
+    display:flex;
+    width:30%;
+    
+}
+
+.main-page-item{
+    padding:auto;
+    display:flex;
+    width:68%;
+}
+
+img{
+   height:95%;
+    width:98%;
+}
+button{
+    background-color: black;
+    color:white;
+    width:100px;
+    padding:4px;
+    margin-top:20px;
+    margin-left:10px;
+}

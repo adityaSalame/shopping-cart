@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    background-color: black;
+    color:white;
+    display:flex;
+    padding:4px;
+    position:fixed;
+    width:100%;
+    z-index: 9999;
+    
+}
+
+.nav-item-1{
+    width:50%;
+    padding:4px;
+
+}
+
+.nav-item-2{
+    width:50%;
+    padding:4px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.nav-item{
+    padding:4px;
+    padding-right: 8px;
+}
+
+.nav-line{
+    background-color: aliceblue;
+    color: aliceblue;
+    
+    
+}
+
+.aside-main{
+    display:flex;
+}
+
+.aside{
+    background-color: black;
+    height:100vh;
+    margin-top: 35px;
+    margin-left: 0;
+    color:white;
+    width:20%;
+    position:fixed;
+    
+}
+
+.aside hr{
+    margin-top: 3%;
+}
+
+.aside-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aside-section h3{
+    margin: 2px 8px;
+}
+
+.aside-section input{
+    margin: 0px 8px ;
+}
+
+.range-value{
+    display:flex;
+    justify-content: space-between;
+}
+
+.range-value div{
+    padding:0px 8px;
+}
+.aside-section button{
+    width:80%;
+    margin:15px 0px;
+    height:30px;
+
+}
+
+
+
+div .main{
+    margin-left: 20%;
+    padding-left: 20px;
+    margin-top: 35px;
+    width:80%;
+    
+}
+
+.search{
+    margin-top: 10px;
+    display: flex;
+}
+
+.categories{
+    display:flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.categories div{
+    box-sizing: border-box;
+    background-color:transparent;
+    border-width: 2px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    margin: 2px 5px;
+    font-size: larger;
+}
+.search img{
+    height:30px;
+    margin: 0px 5px;
+    padding: 2px;
+    
+}
+.search input{
+    width:90%;
+    margin-left: -35px;
+    background-color: transparent;
+    height:35px;
+    padding-left: 40px;
+}
+
+.section-name{
+    font-size: 20px;
+    margin: 0px 5px;
+}
+.sections{
+    display: flex;
+    overflow: auto scroll;
+    overflow-y: auto;
+    
+    
+}
+
+.sections::-webkit-scrollbar{
+    display:inline-block;
+}
+
+.card{
+    width:250px;
+    border: 1px solid;
+    height:10%;
+    margin: 10px;
+    
+}
+
+.details{
+    
+    
+    
+    
+    padding:4px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    height:250px;
+    width:230px;
+    margin:auto;
+    
+    
+}
+
+.price-size{
+    display: flex;
+    justify-content: space-between;
+    margin:5px;
+    padding:2px;
+
+}
+
+.colors-section{
+    display: flex;
+    justify-content: left;
+}
+
+.rating{
+    display: flex;
+    width:100%;
+}
+
+.stars{
+    display:flex;
+    width:70%;
+}
+
+.add-to button{
+    width:100%;
+    background-color: black;
+    color:white;
+    height:30px;
+}

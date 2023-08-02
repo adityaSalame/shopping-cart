@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-item-1">MeShop.</div>
+        <div class="nav-item-2">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">Login</div>
+            <div class="nav-item">Signup</div>
+            <div class="nav-item">My cart</div>
+            <div class="nav-item">Profile</div>
+        </div>
+    </div>
+
+    <div class="aside-main">
+        
+        <div class="aside">
+            <hr>
+            <div class="aside-section">
+                
+                <h3>Colors</h3>
+                <div><input type="checkbox" value="red">Red</div>
+                <div><input type="checkbox" value="blue">Blue</div>
+                <div><input type="checkbox" value="green">Green</div>
+                <div><input type="checkbox" value="black">Black</div>
+                <div><input type="checkbox" value="white">White</div>
+                
+
+                
+            </div><hr>
+            <div class="aside-section">
+                <h3>Sizes</h3>
+                <div><input type="checkbox">S</div>
+                <div><input type="checkbox">M</div>
+                <div><input type="checkbox">L</div>
+                <div><input type="checkbox">XL</div>
+            </div><hr>
+            <div class="aside-section">
+                <h3>Rating</h3>
+                <input type="range" min="0" max="5">
+                <div class="range-value"><div>0</div><div>5</div></div>
+            </div><hr>
+            <div class="aside-section">
+                <h3>Price Range</h3>
+                <div>
+                    <input type="checkbox">$0 to $25
+                </div>
+                <div><input type="checkbox">$25 to $50</div>
+                <div><input type="checkbox">$50 to $100</div>
+                <div><input type="checkbox">$100 onwards</div>
+            </div>
+            <div class="aside-section">
+                <button>Apply Filter</button>
+            </div>
+        </div>
+        
+        <div class="main">
+            <div class="search">
+                <img src="./ant-design_search-outlined.png">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div class="categories">
+                <div id="categories-all">All</div>
+                <div id="categories-men">Men's</div>
+                <div id="categories-women">Women's</div>
+                <div id="categories-elect">Electronics</div>
+                <div id="categories-jewe">Jewellery</div>
+            </div>
+
+            <div id="desc-men" class="section-name">
+                Men's clothing
+            </div>
+            <div id="men's" class="sections">
+                <div class="card">
+                    <div class="details">
+                        <div class="img">
+                            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg">
+                        </div>
+                        <div class="price-size">
+                            <div class="price">$109.95</div>
+                            <div class="size">S,M,L,XL</div>
+                        </div>
+                        <div class="colors-section">
+                            <div class="color">Colors:</div>
+                            <div class="colors-num">
+                               
+                            </div>
+                        </div>
+                        <div class="rating">
+                                <div class="rating-line">Rating:</div>
+                                <div class="stars">
+                                    <div class="eachstar"><img src="./Star 3.png"></div>
+                                    <div class="eachstar"><img src="./Star 3.png"></div>
+                                    <div class="eachstar"><img src="./Star 3.png"></div>
+                                </div>
+        
+                        </div>
+                    </div>
+                    <div class="add-to">
+                        <button>Add To Cart</button>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+        
+            <div id="desc-women" class="section-name">Women's Clothing</div>
+            <div id="women's" class="sections"></div>
+            
+            <div id="desc-jewe" class="section-name">Jewellery</div>
+            <div id="jewellery" class="sections"></div>
+
+            <div id="desc-ele" class="section-name">Electronics</div>
+            <div id="electronics" class="sections"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
