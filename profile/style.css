@@ -61,6 +61,11 @@ input{
     margin:5px 10px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 button{
     width:200px;
     height:35px;

@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="navbar">
-        <div class="nav-item-1">MeShop.</div>
+        <div class="nav-item-1"><a href="../shop/index.html">MeShop.</a></div>
         <div class="nav-item-2">
-            <div class="nav-item">Home</div>
-            <div class="nav-item">Login</div>
-            <div class="nav-item">Signup</div>
-            <div class="nav-item">My cart</div>
-            <div class="nav-item">Profile</div>
+            <div class="nav-item"><a href="../shop/index.html">Home</a></div>
+            <div class="nav-item"><a href="">Login</a></div>
+            <div class="nav-item"><a href="">Signup</a></div>
+            <div class="nav-item"><a href="../cart/index.html" >My Cart</a></div>
+            <div class="nav-item"><a href="../profile/index.html">Profile</a></div>
         </div>
     </div>
     <div class="para">
@@ -22,32 +22,32 @@
         
     </div>    
     <div class="input-div">
-        <input type="text" placeholder="First Name">
+        <input id="firstName" type="text" placeholder="First Name">
     </div>
     <div class="input-div">
-        <input type="text" placeholder="Last Name">
+        <input id="lastName" type="text" placeholder="Last Name">
     </div>
     <div class="button">
-        <button>Save Info</button>
+        <button id="saveinfo">Save Info</button>
     </div>
     <div class="para">
         <h1>Edit Password</h1>
         
     </div> 
     <div class="input-div">
-        <input type="text" placeholder="Old Password">
+        <input id="old-pw" type="text" placeholder="Old Password">
     </div>
     <div class="input-div">
-        <input type="text" placeholder="New Password">
+        <input id="new-pw" type="text" placeholder="New Password">
     </div>
     <div class="input-div">
-        <input type="text" placeholder="Confirm New Password">
+        <input id="confirm-new-pw" type="text" placeholder="Confirm New Password">
     </div>    
     <div class="button">
-        <button>Change Password</button>
+        <button id="changepw">Change Password</button>
     </div>
     <div class="button">
-        <button>Logout</button>
+        <button id="logout">Logout</button>
     </div>
     <script src="./script.js"></script>
 </body>

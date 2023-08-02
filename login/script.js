@@ -2,7 +2,7 @@ document.getElementById("login-button").addEventListener("click",checkuser);
 let email=document.getElementById("email");
 let password=document.getElementById("password");
 function checkuser(e){
-    e.preventDefault();
+    
     if(email.value.trim()==""||password.value.trim()=="") {
         alert("fill all details");
     
@@ -10,7 +10,7 @@ function checkuser(e){
     else{
         let users = JSON.parse(localStorage.getItem('users'));
         
-        if (users) {
+        if (users!=null) {
             let currentUser = users.find(user => {
                 return user.email === email.value.trim();
             });
@@ -32,22 +32,13 @@ function checkuser(e){
             alert('you have not signed up');
         }
     }
-    // if(users === null){
-    //     alert("user does not exist");
-    // }
-    // else{
-    //      // users will be array of objects
-    //      const obj = users.find(userObj=>{
-    //         return userObj.email === email;
-    //         // if obj with email is exist 
-    //     })
-    //     if(obj) checkpassword(obj.password);
-    //     else alert("user does not exist");
-    // }
+    
+    // document.getElementById("Signup").addEventListener("click",()=>{
+    //     window.location.href="../signup";
+    // });
         
        
     
 
 }
 
-function checkpassword()
